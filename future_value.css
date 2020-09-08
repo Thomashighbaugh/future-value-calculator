@@ -1,0 +1,62 @@
+body {
+  font-family: "Odibee Sans", monospace;
+  background-color: #343a40;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+h1 {
+  color: #44ddff;
+  margin-bottom: 1rem;
+  font-family: "Coda Caption", monospace;
+  text-align: center;
+  background-color: #343a40;
+  border: #44ddff solid 0.25rem;
+  width: 95%;
+  margin-left: 0.5%;
+  padding: 0.5rem;
+}
+main {
+  background-color: #eeeeee;
+  width: 32%;
+  margin-right: 35%;
+  margin-left: 35%;
+  border: double #44ddff 1rem;
+}
+label {
+  float: left;
+  width: 45%;
+  text-align: right;
+  font-family: "Coda Caption", monospace;
+}
+input {
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+  width: 5em;
+  font-size: 1.25rem;
+}
+#calculate {
+  color: #44ddff;
+  background: #343a40;
+  border: #44ddff double 0.51rem;
+  width: 95%;
+  font-family: "Coda Caption", monospace;
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin-left: 2.5%;
+}
+#calculate:hover {
+  background-color: #44ddff;
+  color: #343a40;
+  border: #343a40 double 0.51rem;
+}
+.error {
+  color: red;
+  display: inline;
+  width: 25%;
+  font-size: 0.75rem;
+}
+section {
+  display: flex;
+}
